@@ -1,6 +1,9 @@
 ptsa_plot
 =========
 
+.. image:: https://travis-ci.org/pennmem/ptsa_plot.svg?branch=master
+    :target: https://travis-ci.org/pennmem/ptsa_plot
+
 Plotting and visualization utilities using all your favorite PTSA toppings.
 
 Contributing
