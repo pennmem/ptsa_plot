@@ -1,12 +1,19 @@
 # Contributing to ptsa_plot
 
+## General guidelines
+
+- Always use docstrings for classes and functions. Numpy-style doc strings are
+  preferred.
+
 ## How to contribute new code
 
 1. Fork this repository and create a new branch
 2. Add your new code to a sensible place
 3. Follow [PEP8][] guidelines as best as possible (it's OK to ignore the line
    length limit of 80 characters)
-4. Add unit tests to ensure that everything works as expected
+4. Add unit tests to ensure that everything works as expected. Test files should
+   be placed in the `ptsa_plot.test` package and be named `test_yournewmodule.py`
+   where `yournewmodule` is the name of your new module.
 5. Submit a pull request
 6. Make modifications as requested by the maintainers
 
