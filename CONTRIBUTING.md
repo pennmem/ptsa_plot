@@ -4,6 +4,8 @@
 
 - Always use docstrings for classes and functions. Numpy-style doc strings are
   preferred.
+- It's nice to include demo usages whether in docstrings or as a standalone
+  example file.
 
 ## How to contribute new code
 
