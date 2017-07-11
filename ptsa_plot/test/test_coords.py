@@ -59,8 +59,3 @@ class TestCoords(unittest.TestCase):
         assert_almost_equal(
             coords.cart2pol(x, y, Z, radians=False), (np.angle(z, deg=True), np.hypot(x, y), Z)
         )
-
-
-if __name__ == "__main__":
-    import pytest
-    pytest.main()
