@@ -2,8 +2,9 @@
 
 ## General guidelines
 
-- Always use docstrings for classes and functions. Numpy-style doc strings are
-  preferred.
+- Always use docstrings for classes and functions.
+  [Numpy-style](https://github.com/numpy/numpy/blob/master/doc/HOWTO_DOCUMENT.rst.txt)
+  doc strings are preferred.
 - It's nice to include demo usages whether in docstrings or as a standalone
   example file.
 
