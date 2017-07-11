@@ -40,3 +40,4 @@ addons:
 
 script:
   - python -m ptsa_plot.test
+  - coverage report
