@@ -241,7 +241,7 @@ def topoplot(values=None, labels=None, sensors=None, axes=None,
         #zi = griddata(x,y,z,xi,yi)
         pass
     elif plot_mask=='circular':
-        npts = np.mean((nx,ny))*2
+        npts = int(round(np.mean((nx,ny))))*2
         t = np.linspace(0, 2*np.pi,npts)[:-1]
         x = np.r_[x, np.cos(t)*plot_radius]
         y = np.r_[y, np.sin(t)*plot_radius]
