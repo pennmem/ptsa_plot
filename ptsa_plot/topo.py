@@ -10,7 +10,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-from ptsa.helper import pol2cart, cart2pol, deg2rad
+from .coords import pol2cart, cart2pol, deg2rad
 
 from scipy.interpolate import griddata
 
