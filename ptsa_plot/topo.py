@@ -222,8 +222,8 @@ def topoplot(values=None, labels=None, sensors=None, axes=None,
     z = values
 
     # resolution determines the number of interpolated points per unit
-    nx = round(resolution*plot_radius)
-    ny = round(resolution*plot_radius)
+    nx = int(round(resolution*plot_radius))
+    ny = int(round(resolution*plot_radius))
 
     # now set up the grid:
     xi, yi = np.meshgrid(np.linspace(-plot_radius, plot_radius,nx),
